@@ -23,3 +23,16 @@ const slides = [
 ];
 
 console.log(slides);
+
+
+const {createApp} = Vue
+
+import { createApp } from 'vue'
+
+createApp({
+    data() {
+        return {
+            count: 0
+        }
+    }
+}).mount('#app')
